@@ -1,0 +1,10 @@
+pcb/tartan.cmp
+pcb/tartan.bak
+pcb/fp-lib-table
+pcb/fp-info-cache
+*.kicad_pcb-bak
+pcb/tartan.net
+pcb/design/
+pcb/gerber/
+pcb/tartan-cache.lib
+*.ai
