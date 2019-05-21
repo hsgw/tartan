@@ -707,7 +707,7 @@ Text Label 5900 1400 0    50   ~ 0
 COL4
 Text Label 5900 1500 0    50   ~ 0
 COL5
-Text Label 5900 2150 0    50   ~ 0
+Text Label 5900 2250 0    50   ~ 0
 COL6
 Wire Wire Line
 	5900 2150 5800 2150
@@ -719,11 +719,11 @@ Wire Wire Line
 	5800 2450 5900 2450
 Wire Wire Line
 	5800 2550 5900 2550
-Text Label 5900 2250 0    50   ~ 0
-COL7
 Text Label 5900 2350 0    50   ~ 0
-COL8
+COL7
 Text Label 5900 2450 0    50   ~ 0
+COL8
+Text Label 5900 2650 0    50   ~ 0
 COL9
 Text Label 5900 3000 0    50   ~ 0
 COL10
@@ -2897,51 +2897,6 @@ F 3 "~" H 12800 7300 50  0001 C CNN
 	1    12800 7300
 	1    0    0    -1  
 $EndComp
-$Comp
-L device:R_Small R5
-U 1 1 5CCF9A8A
-P 6400 2600
-F 0 "R5" H 6459 2646 50  0000 L CNN
-F 1 "1.5k" H 6459 2555 50  0000 L CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 6400 2600 50  0001 C CNN
-F 3 "~" H 6400 2600 50  0001 C CNN
-	1    6400 2600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L device:LED_Small_ALT LED1
-U 1 1 5CD172DC
-P 6700 2600
-F 0 "LED1" H 6700 2835 50  0000 C CNN
-F 1 "LED" H 6700 2744 50  0000 C CNN
-F 2 "LEDs:LED_D3.0mm" V 6700 2600 50  0001 C CNN
-F 3 "~" V 6700 2600 50  0001 C CNN
-	1    6700 2600
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	6500 2600 6600 2600
-Wire Wire Line
-	6300 2600 6200 2600
-Wire Wire Line
-	5800 2650 6200 2650
-Wire Wire Line
-	6800 2600 6900 2600
-$Comp
-L power:GND #PWR014
-U 1 1 5CD6ECB4
-P 6900 2900
-F 0 "#PWR014" H 6900 2650 50  0001 C CNN
-F 1 "GND" H 6905 2727 50  0000 C CNN
-F 2 "" H 6900 2900 50  0001 C CNN
-F 3 "" H 6900 2900 50  0001 C CNN
-	1    6900 2900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6900 2600 6900 2900
-Wire Wire Line
-	6200 2600 6200 2650
 Wire Wire Line
 	9200 5300 7000 5300
 Connection ~ 7000 5300
@@ -2997,4 +2952,8 @@ F 3 "" H 12600 8400 50  0001 C CNN
 	1    12600 8400
 	1    0    0    -1  
 $EndComp
+Text Label 5900 2150 0    50   ~ 0
+ROW4
+Wire Wire Line
+	5800 2650 5900 2650
 $EndSCHEMATC
