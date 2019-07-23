@@ -8,3 +8,7 @@ pcb/design/
 pcb/gerber/
 pcb/tartan-cache.lib
 *.ai
+*.csv
+*.xml
+*.dwg
+*.dxf
