@@ -12,3 +12,5 @@ pcb/tartan-cache.lib
 *.xml
 *.dwg
 *.dxf
+*.ods
+*.ini
