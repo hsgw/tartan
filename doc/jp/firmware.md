@@ -21,7 +21,7 @@ make tartan:default
 #### ビルドしてPlaidへ書き込む
 Tartanをブートローダモードにしてから
 ```
-make tartan:default:program
+make tartan:default:flash
 ```
 
 ## ジャンパー線でテスト
