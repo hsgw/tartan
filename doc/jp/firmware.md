@@ -1,10 +1,9 @@
 # ファームウェアについて
 
 # ファームウェアの場所
-QMK Firmware本家へまだmergeされていません。
-以下のリポジトリからcloneしてください。
+QMK Firmware本家にあります。
 
-https://github.com/hsgw/qmk_firmware/tree/tartan
+https://github.com/qmk/qmk_firmware
 
 ## QMK Firmwareのセットアップ
 - https://github.com/qmk/qmk_firmware
@@ -15,13 +14,13 @@ https://github.com/hsgw/qmk_firmware/tree/tartan
 
 #### ファームウェアのビルドのみ
 ```
-make tartan:default
+make dm9records/tartan:default
 ```
 
 #### ビルドしてPlaidへ書き込む
 Tartanをブートローダモードにしてから
 ```
-make tartan:default:flash
+make dm9records/tartan:default:flash
 ```
 
 ## ジャンパー線でテスト
